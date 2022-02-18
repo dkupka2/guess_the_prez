@@ -1,0 +1,47 @@
+.container {
+    margin: 0 auto;
+    max-width: 60%;
+}
+
+body {
+    margin: 0;
+    background-color: #dedede;
+}
+
+h1 {
+    margin: 0;
+    text-align: center;
+    padding: 2rem 0;
+    background: #0000bb;
+    color: #c9c91b;
+    text-transform: uppercase;
+}
+
+.imgblock {
+    margin: 2rem 0 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 300px;
+}
+
+#playblock {
+    display: none;
+    margin: auto;
+    max-width: 60%;
+}
+
+#turns {
+    background-color: #000000;
+    color: #ff6600;
+}
+
+.yesnobuttons {
+    border: #ffffff, 300px, solid;
+}
+
+#finalscore {
+    display: none;
+    margin: auto;
+    max-width: 60%;
+}

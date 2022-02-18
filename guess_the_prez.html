@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Guess The Prez</title>
+</head>
+<body>
+    <h1>Guess The Prez!</h1>
+    <div class="container">
+        <img id="presimg" class="imgblock" src="img/guess_who.png" alt="A President's Face">
+        <div id="startblock">
+            <div id="introtext">
+                <p>How to play:</p>
+                <li>An image of a US President will appear</li>
+                <li>Choose the name of the US President based on the image</li>
+                <button id="startbutton">Start!</button>
+            </div>
+        </div>
+        <div id="playblock">
+            <div>
+                Question <span id="questionnum"></span> of <span id="numquestions"></span>
+            </div>
+            <div id="result"></div>
+            <div><span id="score"></span></div>
+            <div>
+                <button class="prezbutton"></button><br />
+                <button class="prezbutton"></button><br />
+                <button class="prezbutton"></button><br />
+            </div>
+        </div>
+        <div id="finalscore">
+            YOUR SCORE
+            <span id="percent"></span> % 
+            <div>Refresh your browser to Guess The Prez again!</div>
+        </div>
+    </div>
+    <script src="guess_the_prez.js"></script>
+</body>
+</html>
